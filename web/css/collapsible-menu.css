@@ -64,14 +64,14 @@ a {
 }
 
 .collapsibleMenu a.expanded {
-	background: #00d4d5 url('images/minus_25.png') no-repeat -2px 50%;
+	background: #00d4d5 url('../img/minus_25.png') no-repeat -2px 50%;
 	-moz-border-radius: 7px 7px 1px 1px;
 	border-radius: 7px 7px 1px 1px;
 	
 }
 
 .collapsibleMenu a.collapsed {
-     background: #00adaf url('images/plus_25.png') no-repeat -2px 50%;
+     background: #00adaf url('../img/plus_25.png') no-repeat -2px 50%;
      -moz-border-radius: 7px 7px 1px 1px;
      border-radius: 7px 7px 1px 1px;
 }

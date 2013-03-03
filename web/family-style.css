@@ -70,7 +70,8 @@ h3 {
 /* HEADER */
 
 header {
-	background-color: #666;
+	background-color: #00A9DB;
+	background-repeat: repeat-x;
 }
 
 .logo-img {
@@ -84,9 +85,9 @@ header {
 /* Search bar */
 
 .search-bar {
-	background-color: #F1F1F1;
+	background-color: #313131;
 	padding: 10px 0;
-	border: 1px solid #E1E1E1;
+	border: 1px solid #121212;
 	padding-left: 27px;
 }
 

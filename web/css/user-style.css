@@ -56,22 +56,42 @@ body {
 
 }
 
-/* 
+/* DESK */
+.desk {
+	margin: 0 auto;
+	width: 90%;
+}
+
+/* BIN DROP */
+#bin,
+#selected-img,
+#save {
+	float: left;
+	display: inline-block;
+	margin: 0 5%;
+}
+
+#selected-img > p {
+	text-align: center;
+}
 
 /* ACTUAL */
 
+/* SAVE DROP */
+
+
 /* GRID */
-.img-grid {
+#image-grid {
+	clear: both;
+	overflow: auto;
 	margin: 0 auto;
-	margin: 20px 20px 0 20px;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #000;
 }
 
 .photo {
 	width: 160px;
 	float: left;
 	margin: 8px;
-}
-
-.photo:hover {
-	box-shadow: 5px;
 }
